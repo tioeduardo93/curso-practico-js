@@ -11,7 +11,7 @@ function areaCuadrado (lado){
 //CÓDIGO PARA EL TRIÁNGULO
 
 function perimetroTriangulo (lado1, lado2, base){
-   return (lado1 + lado2 + base);
+   return Number(lado1) + Number(lado2) + Number(base);
 }
 
 function areaTriangulo (base, altura){
